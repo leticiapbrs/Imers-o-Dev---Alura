@@ -8,7 +8,7 @@ Nesta aula foi realizada a criação de um conversor de moedas de real para dól
 
 
 
-![image-20220310204853411](C:\Users\Leticia\AppData\Roaming\Typora\typora-user-images\image-20220310204853411.png)
+![image](https://user-images.githubusercontent.com/97967025/157775465-98bf30ae-2ed0-4848-8929-fbbb34bf41c5.png)
 
 
 

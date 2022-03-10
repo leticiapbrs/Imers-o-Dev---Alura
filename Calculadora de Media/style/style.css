@@ -1,0 +1,51 @@
+html, body{
+    height: 100%;
+}
+
+
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 400px;
+    background-color: #000000;
+    background-image: url('/universal-different-vector-seamless-free-pattern1.png');
+    background-repeat: repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px; 
+    height: 150px; 
+    border-radius: 5%;
+    border: solid rgb(211, 211, 211) 20px;
+    background-color: rgb(211, 211, 211);
+  }
+  
+  .page-title {
+    color: #1d8587;
+    font-family: 'Playfair Display', serif;
+    text-shadow: #000000;
+    font-weight: bold;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color:black;
+    margin-top: 8px;
+    font-family: 'Libre Franklin', sans-serif;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }

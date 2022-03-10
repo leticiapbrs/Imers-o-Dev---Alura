@@ -1,0 +1,92 @@
+body {
+    background-image: url(/money-free-seamless-pattern-in-linear-style2.png);
+    background-repeat: repeat;
+    font-family: "Roboto Mono", monospace;
+    min-height: 400px;
+    background-color: #000000;
+    background-size: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* circle */
+.container {
+    background-color: #18535c;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: solid #dab87a 2px;
+}
+
+/* fonts */
+.page-title {
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'BioRhyme', serif;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+    font-size: 24px;
+    font-family: 'Mukta Vaani', sans-serif;
+}
+
+label {
+    color: white;
+    font-size: 20px;
+    font-family: 'Mukta Vaani', sans-serif;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+/* logo */
+.page-logo {
+    padding-top: 100px;
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* input */
+input {
+    padding: 6px;
+    border-radius: 5px;
+}
+
+/* output */
+.output {
+    background-color: #18535c;
+    margin-top: 1rem;
+    border: solid #dab87a 2px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* button */
+button {
+    border-radius: 10px;
+    background: #ffffff;
+    margin-top: 20px;
+    padding: 0.5rem 0.5rem;
+    border-radius: 8px;
+    background-color: #fada06;
+    color: black;
+}
+

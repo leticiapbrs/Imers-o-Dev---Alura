@@ -1,22 +1,26 @@
-var nome = "Aluno(a)";
-var notaDoPrimeiroBimestre = 9;
-var notaDoSegundoBimestre = 6;
-var notaDoTerceiroBimestre = 8;
-var notaDoQuartoBimestre = 7;
+function notaMediaGeral() {
+    var nota1Elemento = document.getElementById("valor1");
+    var valor1 = nota1Elemento.value;
+    var nota1Numerica = parseFloat(valor1);
 
-var notaFinal = (notaDoPrimeiroBimestre + notaDoSegundoBimestre + notaDoTerceiroBimestre + notaDoQuartoBimestre) / 4;
+    var nota2Elemento = document.getElementById("valor2");
+    var valor2 = nota2Elemento.value;
+    var nota2Numerica = parseFloat(valor2);
 
-var notaFixada = notaFinal.toFixed(1)
+    var nota3Elemento = document.getElementById("valor3");
+    var valor3 = nota3Elemento.value;
+    var nota3Numerica = parseFloat(valor3);
 
-console.log("Bem vindo(a) " + nome + ", sua média final foi " + notaFinal + ".");
+    var nota4Elemento = document.getElementById("valor4");
+    var valor4 = nota4Elemento.value;
+    var nota4Numerica = parseFloat(valor4);
 
-if (notaFinal >= 7) {
-    console.log ("Parabéns!")
+    var mediaGeral = (nota1Numerica + nota2Numerica + nota3Numerica + nota4Numerica) / 4;
+
+    var elementoValorConvertido = document.getElementById("resultado");
+
+    var resultado = "Sua média geral foi de " + mediaGeral + ".";
+    elementoValorConvertido.innerHTML = resultado;
 }
-else {
-    console.log ("Você pode melhorar.")
-}
-
-
 
 

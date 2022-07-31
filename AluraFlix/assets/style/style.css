@@ -1,0 +1,47 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-color: #000000;
+    margin: 0px 200px;
+}
+
+.container {
+    text-align: center;
+    padding: 80px;
+}
+
+.page-title {
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'BuildingTypeface', Georgia, 'Times New Roman', Times, serif;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+body>img {
+    margin: 0 10px;
+}
+
+img {
+    max-height: 250px;
+}
+
+@font-face {
+    font-family: 'BuildingTypeface';
+    src: url(/Building_Typeface.ttf) format('otf');
+
+}
